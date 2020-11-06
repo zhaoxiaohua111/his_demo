@@ -32,8 +32,8 @@ export default {
       onSubmit(){
           this.axios({
             mothod:'post',
-            url:'/userLogin',
-            data:this.login_form
+            url:'http://localhost:8090',
+            data:this.loginForm
           }).then(function (response) {
           console.log(response+"请求成功");
         })

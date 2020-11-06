@@ -3,8 +3,10 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import First from '@/components/First'
 import login from '@/components/login'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 Vue.use(Router)
-
+Vue.use(VueAxios, axios)
 export default new Router({
   routes: [
     {
@@ -13,7 +15,7 @@ export default new Router({
       component: login
     },
     {
-      path: '/main',
+      path: '/First',
       name: 'First',
       component: First
     }
