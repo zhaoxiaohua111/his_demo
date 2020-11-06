@@ -10,6 +10,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+<<<<<<< HEAD
       proxyTable: {
         '/': {
           target: 'http://localhost:8090/', // 真实服务器的接口地址 
@@ -25,6 +26,9 @@ module.exports = {
           }
       }
     },
+=======
+    proxyTable: {},
+>>>>>>> 5ed6a06bbb4c524993ec1554179faad63d5b663b
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
